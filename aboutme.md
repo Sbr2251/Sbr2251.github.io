@@ -1,0 +1,18 @@
+---
+layout: page
+title: About
+subtitle: Hi, I'm Sudeep Reddy 👋
+show-avatar: false
+---
+
+![Me](/assets/img/avatar-icon.png){: .mx-auto.d-block .rounded-circle :}
+
+I'm currently a computer science major at the University of Wisconsin-Madison. This summer I developed an app called Swadeshi for a restaurant to allow them to take online orders.
+
+<h1><div align="center">
+    <a href="https://github.com/Sbr2251"><i class="fab fa-github"></i> GitHub </a>
+    &nbsp;
+    <a href="https://www.linkedin.com/in/sudeepreddy9/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    &nbsp;
+    <a href="mailto:sbr2251@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+</div></h1>
