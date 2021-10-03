@@ -7,71 +7,16 @@ tags: [Flutter, Firebase, Stripe]
 comments: true
 ---
 
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+This Project serves as an E-commerce application for a Dallas, TX Indian restuarant named Swadeshi-Plaza. The app features a fully functioning authentication service backed with google firebase authentication. The state management for the app uses Flutter's provider architecture which changes the screen depending on the user's authentication status. The app also features an administrative side that can view/edit incoming orders and can only be accessed through an admin login. Payements on the app are supported and processed through the Flutter Stripe library. To achieve stripe 3d secure transactions, I have used a firebase dedicated server as another form of verification to meet stripe security standards and protect customer's billing information. Demos for both the customer and admin side can be seen below on both an iOS simulator and an Andoird emulator. 
 
-**Here is some bold text**
+**Apple Customer Demo**
 
-## Have Changed Once Again
+<iframe width="420" height="315" src="https://www.youtube.com/embed/9ne5kMWi4KA" frameborder="0" allowfullscreen></iframe>
 
-Here's a useless table:
+**Android Admin Demo**
 
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
+<iframe width="420" height="315" src="https://www.youtube.com/embed/tVWdnwBgJo0" frameborder="0" allowfullscreen></iframe>
 
+## Upcoming Changes
 
-How about a yummy crepe?
-
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
-
-It can also be centered!
-
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){: .mx-auto.d-block :}
-
-Here's a code chunk:
-
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
-
-And here is the same code with syntax highlighting:
-
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
-
-And here is the same code yet again but with line numbers:
-
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
-
-## Boxes
-You can add notification, warning and error boxes like this:
-
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
+Version 1.0 of the application has been completed and is currently being tested and is set for a December 2021 release date on both the Apple appstore and Google playstore. Future updates will include a better search algorithm on the customer home page which will most likely use a version of the fuzzy search. Another feature that will soon be implemented is the ability to save cards in a secure way using the stripe api to allow for faster checkouts. Other updates will also include small bug fixes to enhance user experience.
